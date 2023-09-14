@@ -1,0 +1,57 @@
+
+
+.contenedor_medio{
+    /* border: 10px solid red; */
+    margin: 3rem;
+    display: flex;
+}
+
+.medio_izquierdo{
+    /* border: 1px solid fuchsia; */
+    margin: 0;
+    width: 1123px;
+
+}
+
+.input_texto{
+    width: 250px;
+    height: 30px;
+    margin: 20px 0px;
+}
+/* .medio_derecho{
+    border: 3px solid aqua;
+}
+
+h2{
+    border: 1px solid chartreuse
+}
+
+.parrafo3{
+    border: 3px solid pink;
+} */
+
+.skills{
+    /* border: 1px solid white; */
+    margin: 0px;
+}
+
+.contenedor_listas{
+ /* border: 1px solid fuchsia; */
+ display: flex;
+ margin: 0px;
+}
+
+.lista_medio{
+    margin: 0px 32px 32px 0px;
+    width: 215px;
+}
+
+.modal{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn_modal{
+    width: 100px;
+}

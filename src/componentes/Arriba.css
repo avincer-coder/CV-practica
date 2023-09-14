@@ -1,0 +1,48 @@
+.contenedor_arriba{
+    /* border: 10px solid red; */
+    margin: 3rem;
+}
+
+.top{
+    /* border: 1px solid chartreuse; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.correo{
+ /* border: 1px solid pink; */
+ margin: 0;
+ display: flex;
+ justify-content: flex-end;
+}
+
+.telefono{
+    /* border: 1px solid white; */
+    margin: 0;
+    display: flex;
+    justify-content: flex-end
+}
+
+.foto_nombre{
+    /* border: 1px solid fuchsia; */
+    display: flex;
+    height: 327px;
+}
+
+.nombre{
+    margin: 0px;
+    font-size: 117px;
+}
+
+.apellido{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 60px;
+}
+
+img{
+    height: 256px;
+    border-radius: 100%;
+}

@@ -1,0 +1,38 @@
+.contenedor_abajo{
+    /* border: 10px solid red; */
+    margin: 3rem;
+    display: flex;
+}
+
+/* .abajo_derecho{
+    border: 1px solid fuchsia;
+}
+
+.lista_abajo{
+    border: 1px solid greenyellow;
+} */
+
+.abajo_izquierdo{
+    margin: 0px;
+    width: 165px;
+    padding-right: 170px;
+}
+
+h2{
+    margin: 0px;
+    font-size: 40px;
+}
+
+.mes_año{
+    margin-top: -20px;
+    font-size: 18px;
+    padding: 0px;
+}
+
+p{
+    font-size: 20px;
+}
+
+li{
+    font-size: 20px;
+}
