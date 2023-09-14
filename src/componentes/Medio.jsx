@@ -33,7 +33,7 @@ function Medio(props){
                 <p className="medio_izquierdo">{props.izquierda}</p>
                 <input value={letrasInputText} onChange={CapturaDeTexto} className="input_texto" placeholder="Ingresa una nueva habilidad..." type="text">{props.input}</input>
                 <button className="btn_modal" onClick={Agregar}>Agregar</button>
-                <button onClick={contenidoLista} >Click para mostrar lista</button>
+                <button className="btn_esconder_modal" onClick={contenidoLista} >Click para mostrar lista</button>
                 {btnMostrarLista && (
                     <ul>
                         {ListaHabilidades.map((Habilidad, index) => 
